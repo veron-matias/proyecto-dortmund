@@ -1,9 +1,11 @@
 header .miNav{
     background-color:  rgb(255, 217, 0);
+    
+    
 }
 header .miNav a{
     color:black;
-    font-weight: 200;
+    font-weight: 300;
 }
 header .dropdown-menu {
     background-color: rgb(255, 224, 51);
@@ -21,9 +23,10 @@ header .dropdown-menu li a:hover {
 
 .separador { 
     background-image: url("./img/DFL-CLU-000007.png"); 
+
     filter: brightness(90%);
-    background-repeat:repeat ; 
-    background-size: 30px;
+    background-repeat:repeat-X ; 
+    background-size: 30PX;
     /* background-color: rgb(255, 217, 0); */
     background-color: rgb(63, 63, 63);
 }
@@ -32,8 +35,40 @@ header .dropdown-menu li a:hover {
     padding: 25px 0;
     margin: auto;
 }
-.fondoCheems {
-    /* background-image: url("./img/cheemsbee.jpg");
-    background-repeat: repeat-x repeat-y; */
-    background-color: rgb(102, 102, 66)
+.fondoCarrusel {
+    /* background-image: url("./img/dortmundFondo.jpg");
+    background-repeat: no-repeat;
+    height: 100%;
+     */
+     background-image: linear-gradient( 0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5) ) ,url(./img/dortmundFondo.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center center;
+ 
+}
+.tothetop {
+    width: 4rem;
+    height: 4rem;
+    background: url(./img/flecha.svg) no-repeat center center;
+    background-size: cover;
+    position: fixed;
+    bottom: 1.875rem;
+    right: 1.875rem;
+    cursor: pointer;
+    display: none;
+    z-index: 2;
+}
+.misCartas {
+    display:flex;
+    max-width: 1280px;
+    margin:auto;
+    padding: 20px 0px;
+    justify-content: space-between;
+}
+
+.misCartasFondo {
+    background-image: linear-gradient( 0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5) ) ,url(./img/estadio2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
