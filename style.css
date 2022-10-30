@@ -58,7 +58,7 @@ header .dropdown-menu li a:hover {
     display: none;
     z-index: 2;
 }
-.misCartas {
+.misCartas .container .row2{
     display:flex;
     max-width: 1280px;
     margin:auto;
@@ -71,4 +71,11 @@ header .dropdown-menu li a:hover {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+}
+@media (max-width: 765px) {
+    .misCartas .container .row2 {
+        
+        justify-content: center;
+        margin:auto;
+    }
 }
